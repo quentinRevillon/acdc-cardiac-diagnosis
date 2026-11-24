@@ -51,9 +51,9 @@ figures/             README figures
 
 ## References
 
-1. O. Bernard et al., "Deep Learning Techniques for Automatic MRI Cardiac Multi-Structures Segmentation and Diagnosis: Is the Problem Solved?", IEEE TMI, 2018.
-2. F. Isensee et al., "Automatic Cardiac Disease Assessment on cine-MRI via Time-Series Segmentation and Domain Specific Features", STACOM 2017.
-3. M. Khened, V. Alex, G. Krishnamurthi, "Densely Connected Fully Convolutional Network for Short-Axis Cardiac Cine MR Image Segmentation and Heart Diagnosis Using Random Forest", STACOM 2017.
+1. O. Bernard et al. [Deep Learning Techniques for Automatic MRI Cardiac Multi-Structures Segmentation and Diagnosis: Is the Problem Solved?](https://doi.org/10.1109/TMI.2018.2837502). IEEE TMI, 2018.
+2. F. Isensee et al. [Automatic Cardiac Disease Assessment on cine-MRI via Time-Series Segmentation and Domain Specific Features](https://arxiv.org/abs/1707.00587). STACOM, 2017.
+3. M. Khened et al. [Densely Connected Fully Convolutional Network for Short-Axis Cardiac Cine MR Image Segmentation and Heart Diagnosis Using Random Forest](https://doi.org/10.1007/978-3-319-75541-0_15). STACOM, 2017.
 
 ## Author
 
