@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acdc-diagnosis"
+version = "0.1.0"
+description = "Cardiac pathology classification on the ACDC dataset from LV reconstruction and cardiac biomarkers"
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
