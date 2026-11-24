@@ -36,7 +36,7 @@ The only remaining failure is the first slice of patient 029, where the myocardi
 
 **Diagnosis** (accuracy, 5 classes):
 
-| Model | 5-fold CV (n=90) | Kaggle private leaderboard (n=50) |
+| Model | 5-fold CV (n=90) | Kaggle private leaderboard |
 |---|---|---|
 | Random forest | 0.90 | **0.88** |
 | MLP | 0.92 | **0.88** |
@@ -44,9 +44,10 @@ The only remaining failure is the first slice of patient 029, where the myocardi
 | XGBoost | 0.92 | 0.77 |
 | Soft voting (RF + MLP + XGBoost) | 0.91 | 0.77 |
 
-The best submission ranked in the top 10% of the challenge. Cross-validation scores come from
-[notebooks/01_cardiac_diagnosis.ipynb](notebooks/01_cardiac_diagnosis.ipynb); feature selection was fitted
-on the same 90 patients, so they are optimistic compared with the leaderboard.
+The best submission ranked in the top 10% of the challenge. Leaderboard scores are those of
+[docs/report.pdf](docs/report.pdf) (Table 2). Cross-validation scores come from
+[notebooks/01_cardiac_diagnosis.ipynb](notebooks/01_cardiac_diagnosis.ipynb); feature selection and the
+hyperparameter search were fitted on the same 90 patients, so they are optimistic compared with the leaderboard.
 
 <img height="400" src="figures/feature_importance.png" />
 
