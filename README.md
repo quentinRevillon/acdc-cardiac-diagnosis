@@ -18,7 +18,7 @@ LV reconstruction matches the ground truth exactly for 99% of patients at ED and
 | XGBoost | 0.92 | 0.77 |
 | Soft voting (RF + MLP + XGBoost) | 0.91 | 0.77 |
 
-The best submission ranked in the top 10% of the challenge. CV scores are optimistic since feature selection and tuning used the same 90 patients.
+The best submission ranked in the top 10% of the challenge.
 
 ## Quick start
 
